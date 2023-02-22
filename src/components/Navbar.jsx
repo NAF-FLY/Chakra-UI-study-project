@@ -3,14 +3,14 @@ import {
 	Button,
 	Flex,
 	Heading,
+	HStack,
 	Spacer,
 	Text,
-	HStack,
 } from '@chakra-ui/react'
 
 const Navbar = () => {
 	return (
-		<Flex as='nav' p='10px' alignItems='center'>
+		<Flex as='nav' p='10px' mb='40px' alignItems='center'>
 			<Heading as='h1'>Dojo Tasks</Heading>
 			<Spacer />
 
@@ -19,7 +19,7 @@ const Navbar = () => {
 					M
 				</Box>
 				<Text>vpatsyuk@outlook.com</Text>
-				<Button colorScheme="purple">Logout</Button>
+				<Button colorScheme='purple'>Logout</Button>
 			</HStack>
 		</Flex>
 
